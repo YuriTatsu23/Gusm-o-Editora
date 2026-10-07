@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:url("cafe.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.cadastro{
+    background:rgba(255,255,255,0.95);
+    width:330px;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+
+h1{
+    color:#5b3416;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#6f3d1d;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#4e2b14;
+}
+
+a{
+    text-decoration:none;
+}
+
+p{
+    margin-top:15px;
+}

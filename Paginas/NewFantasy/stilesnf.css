@@ -63,6 +63,47 @@ a {
     border: 1px solid #222;
     border-radius: 5px;
 }
+/* =========================
+   MENU
+========================= */
+
+.menu > ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu > ul > li {
+    list-style: none;
+}
+
+.menu > ul > li > a {
+    display: block;
+
+    padding: 10px 0;
+
+    color: #222;
+    text-decoration: none;
+
+    font-size: 16px;
+
+    transition: 0.2s;
+}
+
+.menu > ul > li > a:hover {
+    color: #666;
+}
+
+
+.acoes {
+    display: flex;
+    align-items: center;
+}
 
 
 /* =========================
@@ -440,4 +481,51 @@ section {
 }
 
 
+
+
+.menu_barra {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    list-style: none;
+    margin: 0;
+    padding: 8px 0;
+
+    background-color: white;
+    min-width: 180px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    z-index: 1000;
+}
+
+.submenu li {
+    width: 100%;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    color: black;
+
+    transition: background-color 0.3s;
+}
+
+.submenu li a:hover {
+    background-color: #917474;
+    color: #fff;
+}
+
+.menu_barra:hover .submenu {
+    display: block;
+}
 

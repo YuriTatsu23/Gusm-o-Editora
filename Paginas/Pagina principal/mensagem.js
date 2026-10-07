@@ -14,8 +14,10 @@ painel.innerHTML = `
         <h2>Aviso</h2>
 
         <p>
-            Bem-vindo ao site da nossa editora!
-            Confira nossos lançamentos e novidades.
+            Apesar do nome, por enquando 
+            temos uma publicação amadora,
+            sendo mais proximo de uma scan.
+        
         </p>
 
         <button id="continuarAviso">
