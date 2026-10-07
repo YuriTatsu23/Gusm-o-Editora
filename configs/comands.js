@@ -4,7 +4,7 @@ btnNFpagina.addEventListener("click", function (event) {
 
     event.preventDefault();
 
-    window.location.href = "../NewFantasy/nfprincipal.html";
+    window.location.href = "../Gusm-o-editora/paginas/NewFantasy/nfprincipal.html";
 
 });
 
@@ -13,7 +13,7 @@ btnNFpagina.addEventListener("click", function (event) {
 const btnLogin = document.getElementById("btnLogin");
 
 btnLogin.addEventListener("click", function () {
-    window.location.href = "../Login/cadastro.html";
+    window.location.href = "../Gusm-o-editora/paginas/Login/cadastro.html";
 });
 
 
@@ -24,6 +24,6 @@ btnbooks.addEventListener("click", function (event) {
 
     event.preventDefault();
 
-    window.location.href = "../livros/livrosprincipal.html";
+    window.location.href = "../Gusm-o-editora/paginas/livros/livrosprincipal.html";
 
 });
